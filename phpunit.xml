@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+    colors="true"
+    verbose="true"
+    stopOnError="false"
+    stopOnFailure="false"
+    stopOnIncomplete="false">
+    <testsuite name="unit">
+        <directory>tests</directory>
+    </testsuite>
+    <php>
+        <ini name="display_errors" value="On" />
+        <ini name="display_startup_errors" value="On" />
+        <ini name="precision" value="14" />
+    </php>
+</phpunit>

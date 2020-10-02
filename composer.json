@@ -1,0 +1,36 @@
+{
+    "name": "remergeit/complexnumber",
+    "type": "project",
+    "description": "PHP Class for calculating complex numbers with tests",
+    "keywords": [
+        "math",
+        "tests"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.5.20"
+    },
+    "config": {
+        "platform": {
+            "php": "7.1"
+        },
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Remergeit\\Math\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Remergeit\\Tests\\Math\\": "tests/unit/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
